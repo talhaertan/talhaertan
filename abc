@@ -1,0 +1,50 @@
+
+
+# Aras Innovator Yeni Database Oluşturma
+
+
+
+Yeni bir Database eklemek için :
+
+1- Microsoft sql server management studio programı açılır.
+
+
+
+2- Database e sağ tıklanır ve Restore Database e tıklanır.
+
+
+
+3- Açılan pencerede Device bölümüne tıklanır.Üç nokta butonuna tıklanır.Açılan pencerede add butonuna tıklanır.
+
+,
+
+4- Sonra Aras 17 CleanDatabase seçilir ve okey denir .
+
+
+
+5- Otomatik gelen Database ismi kendi isteğimize göre değişitirilebilir .Okeye tıklayınca yeni Database i eklemiş oluruz.
+
+
+
+Bunu bir de Arasta görmemiz lazım. Database i oluşturduk , şimdi Arasın da bu databaseten  haberdar olması lazım.
+
+
+
+6- C:\Program Files (x86)\Aras\Innovator dosya yolunu açıyoruz.
+
+
+
+7- InnovatorServerConfig.xml dosyasını notepad ile açıyoruz.
+
+
+
+8- Burada diğer tüm Databaselerin Aras tarafından görülebilmesi için kodu var.Hazır olanlardan bir tanesini kopyala diyip hemen bir alt satıra yapıştırıyoruz.
+
+
+
+9- İd ve ismini oluşturduğumuz isimle değiştirip kaydediyoruz.
+
+
+
+10- Aras Innovatoru chrome dan açıp database geldi mi diye kontrol ediyoruz. 
+
